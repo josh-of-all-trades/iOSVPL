@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3717A23F1A0582FA007538CA /* VPLiOSSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3717A23E1A0582FA007538CA /* VPLiOSSignUpViewController.m */; };
+		374359411A91474D003777E7 /* VPLiOSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374359401A91474D003777E7 /* VPLiOSTableViewController.m */; };
 		37A129B91A05784C00698D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A129B81A05784C00698D1A /* main.m */; };
 		37A129BC1A05784C00698D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A129BB1A05784C00698D1A /* AppDelegate.m */; };
 		37A129BF1A05784C00698D1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A129BE1A05784C00698D1A /* FirstViewController.m */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		3717A23D1A0582FA007538CA /* VPLiOSSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPLiOSSignUpViewController.h; sourceTree = "<group>"; };
 		3717A23E1A0582FA007538CA /* VPLiOSSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPLiOSSignUpViewController.m; sourceTree = "<group>"; };
+		3743593F1A91474D003777E7 /* VPLiOSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPLiOSTableViewController.h; sourceTree = SOURCE_ROOT; };
+		374359401A91474D003777E7 /* VPLiOSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPLiOSTableViewController.m; sourceTree = SOURCE_ROOT; };
 		37A129B31A05784C00698D1A /* VPLiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPLiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A129B71A05784C00698D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A129B81A05784C00698D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 		37A129B51A05784C00698D1A /* VPLiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3743593F1A91474D003777E7 /* VPLiOSTableViewController.h */,
+				374359401A91474D003777E7 /* VPLiOSTableViewController.m */,
 				37A129BA1A05784C00698D1A /* AppDelegate.h */,
 				37A129BB1A05784C00698D1A /* AppDelegate.m */,
 				37A129BD1A05784C00698D1A /* FirstViewController.h */,
@@ -322,6 +327,7 @@
 			files = (
 				37A129C21A05784C00698D1A /* SecondViewController.m in Sources */,
 				37A129BC1A05784C00698D1A /* AppDelegate.m in Sources */,
+				374359411A91474D003777E7 /* VPLiOSTableViewController.m in Sources */,
 				37A12A071A057BC000698D1A /* VPLiOSLogInViewController.m in Sources */,
 				3717A23F1A0582FA007538CA /* VPLiOSSignUpViewController.m in Sources */,
 				37A129BF1A05784C00698D1A /* FirstViewController.m in Sources */,

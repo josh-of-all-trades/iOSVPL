@@ -57,6 +57,14 @@
     
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    nameField.text = @"";
+    emailField.text = @"";
+    passwordField.text = @"";
+    passwordConfirmField.text = @"";
+    usernameField.text = @"";
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -49,6 +49,11 @@
     passwordField.delegate = self;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    emailOrUsernameField.text = @"";
+    passwordField.text = @"";
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
